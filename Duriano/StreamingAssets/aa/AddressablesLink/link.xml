@@ -1,0 +1,194 @@
+<linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="DigitalRuby.LightningBolt.LightningBoltScript" preserve="all" />
+    <type fullname="Duriono.AoeDamage" preserve="all" />
+    <type fullname="Duriono.ApplyAoeOnHit" preserve="all" />
+    <type fullname="Duriono.ApplyBurnDebuff" preserve="all" />
+    <type fullname="Duriono.ApplyExpDropBuff" preserve="all" />
+    <type fullname="Duriono.ApplyHpPercentDamage" preserve="all" />
+    <type fullname="Duriono.ApplyPoisonDebuff" preserve="all" />
+    <type fullname="Duriono.ApplySlowDebuff" preserve="all" />
+    <type fullname="Duriono.Audio.BoxItemInteractionSoundEventListener" preserve="all" />
+    <type fullname="Duriono.AutoHide" preserve="all" />
+    <type fullname="Duriono.AutoStopParticleAndHide" preserve="all" />
+    <type fullname="Duriono.CharacterModelController" preserve="all" />
+    <type fullname="Duriono.Config.ChamberPathDataSO" preserve="all" />
+    <type fullname="Duriono.DamageModifier" preserve="all" />
+    <type fullname="Duriono.DropMovement" preserve="all" />
+    <type fullname="Duriono.EffectDamage" preserve="all" />
+    <type fullname="Duriono.EffectDamageQueueClear" preserve="all" />
+    <type fullname="Duriono.FireGround" preserve="all" />
+    <type fullname="Duriono.GainExpVFX" preserve="all" />
+    <type fullname="Duriono.God.GodsTrailsSO" preserve="all" />
+    <type fullname="Duriono.God01DealVFX" preserve="all" />
+    <type fullname="Duriono.IceGround" preserve="all" />
+    <type fullname="Duriono.Interaction.BoxItemInteraction" preserve="all" />
+    <type fullname="Duriono.Interaction.CoinInteraction" preserve="all" />
+    <type fullname="Duriono.Interaction.ExpInteraction" preserve="all" />
+    <type fullname="Duriono.Interaction.HealingHerbInteraction" preserve="all" />
+    <type fullname="Duriono.Item.ItemConfigSO" preserve="all" />
+    <type fullname="Duriono.Item.WeaponAugmentSO" preserve="all" />
+    <type fullname="Duriono.Item.WeaponConfigSO" preserve="all" />
+    <type fullname="Duriono.LightningGround" preserve="all" />
+    <type fullname="Duriono.LookAtCameraY" preserve="all" />
+    <type fullname="Duriono.Orbit" preserve="all" />
+    <type fullname="Duriono.ParticleControl" preserve="all" />
+    <type fullname="Duriono.PermaStat.PermaStatItemSO" preserve="all" />
+    <type fullname="Duriono.PlayerCharacterConfigSO" preserve="all" />
+    <type fullname="Duriono.RangeChecker" preserve="all" />
+    <type fullname="Duriono.ScaleBurstAttackBullet" preserve="all" />
+    <type fullname="Duriono.ScaleMovement" preserve="all" />
+    <type fullname="Duriono.SlotMachine" preserve="all" />
+    <type fullname="Duriono.SnapTarget" preserve="all" />
+    <type fullname="Duriono.Status.BurnEffectSO" preserve="all" />
+    <type fullname="Duriono.Status.EirStaffEffectSO" preserve="all" />
+    <type fullname="Duriono.Status.ExpDoubleEffectSO" preserve="all" />
+    <type fullname="Duriono.Status.HpPercentDamageSO" preserve="all" />
+    <type fullname="Duriono.Status.PoisonEffectSO" preserve="all" />
+    <type fullname="Duriono.Status.PreventDeadAndAddStatEffectSO" preserve="all" />
+    <type fullname="Duriono.Status.ScaleBurstAttackEffectSO" preserve="all" />
+    <type fullname="Duriono.Status.SlowEffectSO" preserve="all" />
+    <type fullname="Duriono.Status.StunEffectSO" preserve="all" />
+    <type fullname="Duriono.Status.TakeDamageEffectSO" preserve="all" />
+    <type fullname="Duriono.W001" preserve="all" />
+    <type fullname="Duriono.W001A" preserve="all" />
+    <type fullname="Duriono.W002" preserve="all" />
+    <type fullname="Duriono.W002A" preserve="all" />
+    <type fullname="Duriono.W008" preserve="all" />
+    <type fullname="Duriono.W008A1Bullet" preserve="all" />
+    <type fullname="Duriono.W008Bullet" preserve="all" />
+    <type fullname="Duriono.W011" preserve="all" />
+    <type fullname="Duriono.W011A4" preserve="all" />
+    <type fullname="Duriono.W011A4BombEffect" preserve="all" />
+    <type fullname="Duriono.W011Bullet" preserve="all" />
+    <type fullname="Duriono.W011IceBullet" preserve="all" />
+    <type fullname="Duriono.W011PiercingBullet" preserve="all" />
+    <type fullname="Duriono.W015" preserve="all" />
+    <type fullname="Duriono.W015FlameAura" preserve="all" />
+    <type fullname="Duriono.W08StatusVFX" preserve="all" />
+    <type fullname="Duriono.WeaponAnimation" preserve="all" />
+    <type fullname="Duriono.WeaponShader" preserve="all" />
+    <type fullname="ParabolicMovement" preserve="all" />
+    <type fullname="PhEngine.GoogleSheets.SheetDownloader" preserve="all" />
+    <type fullname="RandomRotateYOnEnable" preserve="all" />
+    <type fullname="Utilities.JiggleUtil.JiggleWindSimulationHandler" preserve="all" />
+    <type fullname="Duriono.Item.AddStatusEffectItemEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Item.BonusCoinOnInteractionItemEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Item.BonusCoinOnStartFloorItemEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Item.BonusExpOnStartFloorItemEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Item.BonusStatOnEndFloorItemEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Item.BonusStatOnStandStillItemEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Item.BonusStatOnStartFloorItemEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Item.BonusStatPerAnotherStatItemEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Item.BonusStatPerEnemyLivingItemEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Item.DealDamageOnCriticalHitItemEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Item.DealDamageOnEnemyDieItemEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Item.DealDamageOnEvasionItemEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Item.DealDamageOnTakeDamageItemEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Item.DecreaseCurrentHpOnStartFloorItemEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Item.HealOnCriticalHitItemEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Item.HealOnInteractionItemEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Item.IncreaseDamageOnBossItemEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Item.ItemInteractionAttractorItemEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Item.NotShowAugmentItemEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Item.PreventDeadForSecondsItemEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Item.SacredSwordSheathFreyrEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.StatModifier" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.CharacterStat" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Config.ChamberRandomRate" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.Config.FloorGenerateData" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.StatBound" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.FriggBlessing" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.GrandStarFall" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.ShadowStep" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.God.FateDetails" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.God.FateObjectVFX" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.God.GodEir" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.God.GodForseti" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.God.GodFrigg" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.God.GodHodr" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.God.GodMimir" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.God.GodVidar" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.PermaStat.AddCoinOnStartPermaEffect" preserve="nothing" serialized="true" />
+    <type fullname="Duriono.PermaStat.AddStatOnStartPermaEffect" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="DTT.AreaOfEffectRegions.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="DTT.AreaOfEffectRegions.ArcRegion" preserve="all" />
+    <type fullname="DTT.AreaOfEffectRegions.CircleRegion" preserve="all" />
+  </assembly>
+  <assembly fullname="Naelstrof.JigglePhysics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="JigglePhysics.JiggleRigBuilder" preserve="all" />
+    <type fullname="JigglePhysics.JiggleSettings" preserve="all" />
+    <type fullname="JigglePhysics.JiggleRigBuilder/JiggleRig" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.Animation.Rigging, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Animations.Rigging.BoneRenderer" preserve="all" />
+    <type fullname="UnityEngine.Animations.Rigging.Rig" preserve="all" />
+    <type fullname="UnityEngine.Animations.Rigging.RigBuilder" preserve="all" />
+    <type fullname="UnityEngine.Animations.Rigging.RigEffectorData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Animations.Rigging.RigEffectorData/Style" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Animations.Rigging.RigLayer" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.Avatar" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.LineRenderer" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.TextAsset" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.TrailRenderer" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.MeshCollider" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody" preserve="all" />
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+</linker>
